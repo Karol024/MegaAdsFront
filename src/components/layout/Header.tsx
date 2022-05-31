@@ -1,0 +1,15 @@
+import React from "react";
+import { Btn } from "../common/Btn";
+import './Header.css';
+
+export const Header = () => (
+    <header>
+        <h1>
+            <strong>Mega</strong> Ogłoszenie
+        </h1>
+        <Btn text="Dodaj Ogłoszenie"/>
+        <div className="search">
+            <input type="text"/> <Btn text="Szukaj"/>
+        </div>
+    </header>
+);
